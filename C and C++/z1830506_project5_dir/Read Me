@@ -1,0 +1,5 @@
+This project was a loose simulation of a Page Table for my Operating Systems class.
+It was written in C and C++. Its goal was to simulate a Page Table over the course of a couple different algorithms as a check. 
+The project could take a list of objects to insert into the Page Table and then simulate what a page table would do given said information.
+If a real page table would have removed an object and place in new data it would do so with a given algorithm (FIFO, LIFO, etc).
+If the object was already in memory, it would simply continue. It was a mostly conceptual assignment but complex, nonetheless. 
