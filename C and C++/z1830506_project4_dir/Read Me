@@ -1,0 +1,7 @@
+This project was created for my Operating Systems Class as an exorcise in Threads.
+It wasn’t an incredibly long project but it was complicated for someone who had hardly touched the material.
+It was written in a combination of C and C++. It involved allowing the user to input an amount of threads, an amount of iterations, and a sentence.
+The threads would then attempt to preform their functions limited by the mutex lock that we were to instantiate.
+The program could read the sentence and writing the sentence out to console correctly without having any reader/writer issues.
+It was not a perfect execution of the idea. It was not required as anything more than extra credit but the program doesn’t make sure that the threads take turns.
+So, It’s possible to say read it three times in a row and then write to it once and vice versa.
